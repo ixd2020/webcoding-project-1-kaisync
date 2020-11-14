@@ -1,0 +1,95 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, Roboto, sans-serif;
+  color: white;
+  margin: 2em;
+  background-image: url("https://cdn.glitch.com/38db71d4-bdae-426d-aba6-24b5c676af79%2Fpexels-steve-johnson-1292241.jpg?v=1605065694979");
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.coralbox {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: coral;
+  overflow: auto; /* overflow can create scroll when content is too long*/
+}
+
+.bluebox {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: lightblue;
+}
+.yellowbox {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: yellow;
+}
+.pinkbox {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: pink;
+}
+.violetbox {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: violet;
+}
+.limebox {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  background-color: lime;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.threecol {
+  width: 33.33%;
+  height: 200px;
+}
+
+.twocol {
+  width: 50%;
+  height: 200px;
+}
+
+.onecol {
+  width: 100%;
+  height: 200px;
+}
+
+/* unvisited link */
+a:link {
+}
+
+/* visited link */
+a:visited {
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Frida Kahlo</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/csstest/cssfile.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <style></style>
+  </head>
+  <body>
+    <h2>Grid of Boxes</h2>
+    <p>Float boxes side by side:</p>
+
+    <div class="clearfix">
+      <div class="coralbox threecol">
+        <p style="text-align:center"><a>Some text</a> inside the box.</p>
+      </div>
+      <div class="bluebox threecol">
+        <p style="text-align:center">Some text inside the box.</p>
+      </div>
+      <div class="yellowbox threecol">
+        <p style="text-align:center">Some text inside the box.</p>
+      </div>
+      <div class="pinkbox twocol">
+        <p style="text-align:center">Some text inside the box.</p>
+      </div>
+      <div class="violetbox twocol">
+        <p style="text-align:center">Some text inside the box.</p>
+      </div>
+      <div class="limebox onecol">
+        <p style="text-align:center">Some text inside the box.</p>
+      </div>
+    </div>
+
+    <p>
+      Note that we also use the clearfix hack to take care of the layout flow,
+      and that add the box-sizing property to make sure that the box doesn't
+      break due to extra padding. Try to remove this code to see the effect.
+    </p>
+  </body>
+</html>
