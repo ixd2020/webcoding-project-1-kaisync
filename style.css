@@ -83,3 +83,28 @@ td {
   margin-left: auto;
   margin-right: auto;
 }
+
+.abouttext {
+  float: left;
+  width: 23%;
+  padding: 2%;
+  vertical-align: text-top;
+}
+
+.mostpopular {
+  float: left;
+  width: 30%;
+  padding: 5%;
+  vertical-align: text-top;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .fridaimage,
+  .mostpopular,
+  .abouttext, {
+    width: 100%;
+    /* The width is 100%,
+    when the viewport is 800px or smaller */
+  }
+}

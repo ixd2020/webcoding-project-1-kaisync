@@ -93,3 +93,17 @@ a:hover {
 a:active {
   color: blue;
 }
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .coralbox,
+  .bluebox,
+  .yellowbox,
+  .pinkbox,
+  .violetbox,
+  .limebox {
+    width: 100%;
+    /* The width is 100%,
+    when the viewport is 800px or smaller */
+  }
+}

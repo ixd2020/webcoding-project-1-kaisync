@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>DOMTest</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/domtest.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/domtest.js" defer></script>
+  </head>
+  <body>
+    <h2>My First Page</h2>
+
+    <p id="demo"></p>
+    <h1 onclick="changeText(this)">Click on this text!</h1>
+    <h3 onclick="changeText(this)">Click on this text!</h3>
+    <div onclick="changeText(this)">Click on this text div!</div>
+    <br />
+    <button type="button" onclick="changeText(this)">Click Here</button>
+    <br /><br />
+    <div
+      onmouseover="mOver(this)"
+      onmouseout="mOut(this)"
+      style="background-color:#D94A38;width:120px;height:20px;padding:40px;"
+    >
+      Mouse Over Me
+    </div>
+    <br />
+    <button id="myBtn">Try it</button>
+
+    <p id="time"></p>
+
+    <button id="alertbutton">Try it</button>
+
+    <script>
+      function changeText(id) {
+        id.innerHTML = "Ooops!";
+      }
+      document.getElementById("demo").innerHTML = "Hello World!";
+      function mOver(obj) {
+        obj.innerHTML = "Thank You";
+      }
+
+      function mOut(obj) {
+        obj.innerHTML = "Mouse Over Me";
+      }
+
+      document.getElementById("myBtn").addEventListener("click", displayDate);
+
+      function displayDate() {
+        document.getElementById("time").innerHTML = Date();
+      }
+      document
+        .getElementById("alertbutton")
+        .addEventListener("click", function() {
+          alert("Hello World!");
+        });
+    </script>
+  </body>
+</html>
