@@ -8,70 +8,99 @@
     <title>Frida Kahlo Timeline Gallery</title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/gallery.css" />
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
     <div class="topnav">
-      <a href="/index.html">Home</a>
+      <a href="/index.html"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-home-2"
+          height="15"
+          viewbox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="white"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          align="bottom"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <polyline points="5 12 3 12 12 3 21 12 19 12" />
+          <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+          <rect x="10" y="12" width="4" height="4" />
+        </svg>
+        Home</a
+      >
       <a href="/about.html">About</a>
       <a class="active" href="/gallery.html">Gallery</a>
       <a href="/categories.html">Categories</a>
-
-      <input type="text" placeholder="Search.." />
     </div>
 
     <br />
 
-    <h1 style="text-align: center">Timeline Gallery</h1>
+    <h1 style="text-align:center;color:#6E5744;">Timeline Gallery</h1>
 
-    <table style="width:100%;center">
-      <tr>
-        <th></th>
-        <th colspan="1" style="padding:14px"></th>
-        <th colspan="1" style="padding:14px"></th>
-      </tr>
-      <tr>
-        <td style="text-align:center"></td>
-        <td
-          class="borderline"
-          style="padding:24px;vertical-align:top;text-align:right"
-        >
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
           <h2>1920s</h2>
-          <a href="/DisplayArt1.html">Artwork 1</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 2</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 3</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 4</a>
-          <br /><br /><br /><br /><br /><br /><br /><br />
+          <p>
+            <a href="1920s.html">
+              <img
+                src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fself-portrait-in-a-velvet-dress-by-kahlo-large.jpg?v=1608045776258"
+                alt="Self-Portrait in a Velvet Dress"
+                width="100%"
+              />
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>1930s</h2>
+          <p>
+            <a href="1930s.html">
+              <img
+                src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Ffrieda-and-diego-rivera.jpg?v=1607872356418"
+                alt="Frieda and Diego Rivera"
+                width="100%"
+              />
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
           <h2>1940s</h2>
-          <a href="/DisplayArt1.html">Artwork 1</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 2</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 3</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 4</a>
-        </td>
-        <td style="padding:24px;vertical-align:top;text-align:left">
-          <br /><br /><br /><br /><br /><br /><br /><br />
-
-          <h2>
-            1930s
-          </h2>
-          <a href="/DisplayArt1.html">Artwork 1</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 2</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 3</a>
-          <br />
-          <a href="/DisplayArt1.html">Artwork 4</a>
-        </td>
-      </tr>
-    </table>
+          <p>
+            <a href="1940s.html">
+              <img
+                src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fself-portrait-with-cropped-hair-by-kahlo-large.jpg?v=1608046369531"
+                alt="Self-Portrait with Cropped Hair"
+                width="100%"
+              />
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>1950s</h2>
+          <p>
+            <a href="1940s.html">
+              <img
+                src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fviva-la-vida-watermelons.by-kahlo-large.jpg?v=1608046923278"
+                alt="Viva-la-Vida, Watermelons"
+                width="100%"
+              />
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
