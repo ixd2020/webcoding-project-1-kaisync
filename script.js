@@ -3,3 +3,8 @@
 
 // prints "hi" in the browser's dev tools console
 console.log("hi");
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
