@@ -8,10 +8,10 @@
     <title>Frida Kahlo Timeline Gallery</title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/gallery.css" />
+    <link rel="stylesheet" href="/modaltest.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/gallery.js" defer></script>
+    <script src="/modaltest.js" defer></script>
   </head>
   <body>
     <div class="topnav">
@@ -42,15 +42,32 @@
 
     <br />
 
-    <h1 style="text-align:center;color:#6E5744;">TIMELINE GALLERY</h1>
-    <hr style="width:40%" />
+    <h1 style="text-align:center;color:#6E5744;">Timeline Gallery</h1>
 
+    <!-- Trigger the Modal -->
+<img id="myImg" src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fself-portrait-in-a-velvet-dress-by-kahlo-large.jpg?v=1608045776258"
+                alt="Self-Portrait in a Velvet Dress, 1926"
+                width="100%">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+    
     <div class="timeline">
       <div class="container left">
         <div class="content">
           <h2>1920s</h2>
           <p>
-            <a href="display/1920s.html">
+            <a href="1920s.html">
               <img
                 src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fself-portrait-in-a-velvet-dress-by-kahlo-large.jpg?v=1608045776258"
                 alt="Self-Portrait in a Velvet Dress"
@@ -64,7 +81,7 @@
         <div class="content">
           <h2>1930s</h2>
           <p>
-            <a href="display/1930s.html">
+            <a href="1930s.html">
               <img
                 src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Ffrieda-and-diego-rivera.jpg?v=1607872356418"
                 alt="Frieda and Diego Rivera"
@@ -78,7 +95,7 @@
         <div class="content">
           <h2>1940s</h2>
           <p>
-            <a href="display/1940s.html">
+            <a href="1940s.html">
               <img
                 src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fself-portrait-with-cropped-hair-by-kahlo-large.jpg?v=1608046369531"
                 alt="Self-Portrait with Cropped Hair"
@@ -92,7 +109,7 @@
         <div class="content">
           <h2>1950s</h2>
           <p>
-            <a href="display/1940s.html">
+            <a href="1940s.html">
               <img
                 src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fviva-la-vida-watermelons.by-kahlo-large.jpg?v=1608046923278"
                 alt="Viva-la-Vida, Watermelons"
