@@ -236,6 +236,7 @@ img {
   transition: 0.3s;
   height: 200px;
   width:auto;
+  margin: auto;
 }
 
 img:hover {
