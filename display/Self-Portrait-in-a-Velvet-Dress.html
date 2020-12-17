@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Frida Kahlo 1950s</title>
+    <title>Frida Kahlo Timeline Gallery</title>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/gallery.js" defer></script>
+    <script src="/script.js" defer></script>
   </head>
   <body>
     <div class="topnav">
@@ -38,35 +38,36 @@
       <a href="/about.html">The Artist</a>
       <a class="active" href="/gallery.html">Gallery</a>
       <a href="/life.html">Life</a>
+
+      <!--<input type="text" placeholder="Search.." />-->
     </div>
 
     <br />
-
-    <h4 style="text-align:center;color:#6E5744;">
-      Kahlo's most significant works through the decade.
-    </h4>
-
-    <hr style="width:40%" />
     <br />
-    <h1 style="text-align:center;color:#6E5744;">1950s</h1>
-
+    <h2 style="text-align:center;">
+      Self Portrait in a Velvet Dress, 1926
+    </h2>
+    <img
+      src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fself-portrait-in-a-velvet-dress-by-kahlo-large.jpg?v=1608045776258"
+      alt="Self Portrait in a Velvet Dress, 1926"
+      class="center"
+      style="height: auto; 
+    width:400px;"
+    />
     <br />
-    <div class="center">
-      <div class="imagetable">
-        <a href="/display/Viva-la-Vida-Watermelons.html"
-          ><img
-            class="displayimg"
-            src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fviva-la-vida-watermelons.by-kahlo-large.jpg?v=1608046923278"
-            alt="Viva la Vida, Watermelons, 1954"
-        /></a>
-        <a href="/display/Still-Life-with-Parrot.html"
-          ><img
-            class="displayimg"
-            src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fstill-life-with-parrot-by-kahlo-large.jpg?v=1608209420721"
-            alt="Still Life with Parrot, 1951"
-        /></a>
-        <button class="galleryback" onclick="goBack()">Back to Timeline</button>
-      </div>
+
+    <div class="infobox">
+      <p><b>Media:</b> Oil, Canvas</p>
+      <p>
+        <em
+          >Frida's first self-portrait. It was painted as a gift for her student
+          boyfriend, Alejandro Gomez Arias, who had left her. It was given as a
+          token of love by which she hoped to restore his affection and keep her
+          in his thoughts. Her plea for his love worked and, not long after
+          Alejandro received the portrait, they were rejoined.</em
+        >
+      </p>
     </div>
+    <button class="galleryback" onclick="goBack()">Return</button>
   </body>
 </html>

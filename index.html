@@ -38,9 +38,9 @@
               </svg>
               Home</a
             >
-            <a href="/about.html">About</a>
+            <a href="/about.html">The Artist</a>
             <a href="/gallery.html">Gallery</a>
-            <a href="/categories.html">Categories</a>
+            <a href="/life.html">Life</a>
             <a onclick="myFunction()">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,10 +85,21 @@
 
         <div style="width:20%;float:left;margin: 35px 0 0 0;">
           <img
+            id="myImg"
             src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2F330px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg?v=1604815840366"
             alt="Frida Kahlo"
             style="width:100%;vertical-align:top;text-align:left;"
           />
+        </div>
+        <div id="myModal" class="modal">
+          <!-- The Close Button -->
+          <span class="close">&times;</span>
+
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01" />
+
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption"></div>
         </div>
 
         <table style="width:80%;float:left;">
@@ -143,7 +154,7 @@
           </tr>
         </table>
 
-        <br /><br />
+        <br /><br /><br /><br />
         <div class="footer" , style="text-align:center;">
           <p>
             The works and history of Frida Kahlo.

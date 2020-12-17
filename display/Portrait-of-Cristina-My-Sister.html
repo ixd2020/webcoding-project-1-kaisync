@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Frida Kahlo Categories</title>
+    <title>Frida Kahlo Timeline Gallery</title>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -35,32 +35,38 @@
         </svg>
         Home</a
       >
-      <a href="/about.html">About</a>
-      <a href="/gallery.html">Gallery</a>
-      <a class="active" href="/categories.html">Categories</a>
+      <a href="/about.html">The Artist</a>
+      <a class="active" href="/gallery.html">Gallery</a>
+      <a href="/life.html">Life</a>
+
+      <!--<input type="text" placeholder="Search.." />-->
     </div>
 
     <br />
-
-    <h1 style="text-align:center;color:#6E5744">CATEGORIES</h1>
-
-    <hr style="width:40%" />
-
     <br />
-    <br />
+    <h2 style="text-align:center;">
+      Portrait of Cristina My Sister, 1928
+    </h2>
+    <img
+      src="https://cdn.glitch.com/9de8970c-7cce-4032-a359-183eed2b9f5f%2Fportrait-of-cristina-my-sister-by-kahlo-large.jpg?v=1608121146489"
+      alt="Portrait of Cristina My Sister, 1928"
+      class="center"
+      style="height: auto; 
+    width:400px;"
+    />
     <br />
 
-    <table style="width:100%;center">
-      <!-- replace links with thumbnail images -->
-      <tr>
-        <td style="text-align:center">
-          <a href="/PaintingList.html">Paintings</a>
-        </td>
-
-        <td style="text-align:center">
-          <a href="/DrawingList.html">Drawings</a>
-        </td>
-      </tr>
-    </table>
+    <div class="infobox">
+      <p><b>Media:</b> Oil, Wood</p>
+      <p>
+        <em
+          >This portrait is of Frida's younger sister, Cristina. The pose is
+          still in the "Renaissance" style used by Mexican portrait painters of
+          the 19th century but already reveals both the stylistic and thematic
+          influence of Diego Rivera.</em
+        >
+      </p>
+    </div>
+    <button class="galleryback" onclick="goBack()">Return</button>
   </body>
 </html>
